@@ -474,7 +474,7 @@ body{
     .gallery_images {
         object-fit: cover;
     }
-.footer {
+    .footer {
         height: 50vh;
         width: 130vh;
         display: block;
