@@ -491,7 +491,7 @@ body{
         font-size: 6rem;
     }
     .heading-secondary {
-        font-size: 5rem;
+        font-size: 3rem;
     }
     .section-about_content-text {
         font-size: 3rem;
@@ -503,7 +503,7 @@ body{
         font-size: 3rem;
     }
     .heading-tertiary {
-        font-size: 5rem;
+        font-size: 3rem;
     }
     .graphicText {
         font-size: 3rem;
@@ -516,9 +516,6 @@ body{
     }
     .section-projects_photo-2:hover + .photography-textBox {
         transform: translateY(-28rem);
-    }
-    .testimonials {
-        margin: 4rem 0;
     }
     .heading-4 {
         font-size: 3rem;
