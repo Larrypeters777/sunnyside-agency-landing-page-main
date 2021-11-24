@@ -164,6 +164,7 @@ body{
     padding: 10rem;
 }
 .section-services_content-text{
+    font-size: 3rem;
     margin: 2rem 0;
 }
 .section-services_content-text.paragraph {
@@ -478,4 +479,45 @@ body{
         display: block;
     }
     
+}
+@media only screen and (min-width: 900px) {
+    body{
+        font-size: 8px;
+    }
+    .nav_link {
+        font-size: 2rem;
+    }
+    .heading-primary {
+        font-size: 6rem;
+    }
+    .heading-secondary {
+        font-size: 5rem;
+    }
+    .section-about_content-text {
+        font-size: 3rem;
+    }
+    .btn {
+        font-size: 2rem;
+    }
+    .section-services-text.paragragh-2 {
+        font-size: 3rem;
+    }
+    .heading-tertiary {
+        font-size: 5rem;
+    }
+    .graphicText {
+        font-size: 3rem;
+    }
+    .photographyText {
+        font-size: 3rem;
+    }
+    .section-projects_photo-1:hover + .graphic-textBox {
+        transform: translateY(-28rem);
+    }
+    .section-projects_photo-2:hover + .photography-textBox {
+        transform: translateY(-28rem);
+    }
+    .heading-4 {
+        font-size: 3rem;
+    }
 }
