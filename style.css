@@ -480,7 +480,7 @@ body{
     }
     
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (min-width: 900px) {
     body{
         font-size: 8px;
     }
@@ -488,36 +488,51 @@ body{
         font-size: 2rem;
     }
     .heading-primary {
-        font-size: 6rem;
+        font-size: 5rem;
     }
     .heading-secondary {
         font-size: 3rem;
     }
     .section-about_content-text {
-        font-size: 3rem;
+        font-size: 1.5rem;
     }
     .btn {
         font-size: 2rem;
     }
-    .section-services-text.paragragh-2 {
-        font-size: 3rem;
+    .section-services_content-text {
+        font-size: 1.5rem;
     }
     .heading-tertiary {
-        font-size: 3rem;
+        font-size: 2rem;
     }
     .graphicText {
-        font-size: 3rem;
+        font-size: 1.3rem;
     }
     .photographyText {
-        font-size: 3rem;
+        font-size: 1.3rem;
     }
     .section-projects_photo-1:hover + .graphic-textBox {
-        transform: translateY(-28rem);
+        transform: translateY(-8rem);
     }
     .section-projects_photo-2:hover + .photography-textBox {
-        transform: translateY(-28rem);
+        transform: translateY(-8rem);
     }
-    .heading-4 {
-        font-size: 3rem;
+    .section-projects {
+        height: 90vh;
+    }
+    .testimonials {
+        margin: 2rem 0;
+        height: 100vh;
+    }
+    .gallery_images {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(0rem,1fr));
+    }
+    .gallery_images-1, .gallery_images-2, .gallery_images-3, .gallery_images-4 {
+        width: 100%;
+        display: block;
+    }
+    .footer {
+        height: 49vh;
     }
 }
