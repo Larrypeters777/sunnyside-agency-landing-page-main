@@ -329,8 +329,9 @@ body{
     font-weight: 900;
 }
 .attribution { 
-    font-size: 11px; 
+    font-size: 3rem; 
     text-align: center;
+    font-family: "Barlow", sans-serif;
 }
 .attribution a {
      color: hsl(228, 45%, 44%);
